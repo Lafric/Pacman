@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!-- saves the score and the name of the players, that reached the highest scores -->
+<scoreboard>
+    <singlePlayer>
+
+    </singlePlayer>
+    <multiPlayer>
+
+    </multiPlayer>
+</scoreboard>
+

@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<maps>
+    <!-- w = Wall, p = PowerUp, e = Enemy, f = Enemy Respawn Position (+ scorepoint), 1 = player1 spawn position (+ scorepoint),
+     2 = player2 spawn position (+ scorepoint), . = scorepoint -->
+    <!-- maps must be rectangular-->
+    <!-- there must be a word wrap after the <> tag and before the </>-->
+    <!-- space between characters not needed -->
+    <level1>
+        w w w w w w w w w w w w w w w w . w w w
+        w . . e . . . . . . . . . . . . . . . w
+        w . w w . w . w w w w . w . w w w w . w
+        w . w w . w . . . . w . w p w w w w . w
+        w . w w . w . w w e w . w . w w w w . w
+        w . w w . w . . . . w . . . . . . . . w
+        w . w w . w . w w w w . w w w w w w . w
+        w . w w . w . . p . . . . . . . . w . w
+        w . w w . w . w w w w w w w w w . w . w
+        w . w w . w . . . . . . . . . . . w . w
+        w 1 w w . w . w w w w w w w w . w w p w
+        w 2 w w . w . . . . f . . . . . . . . w
+        w . w w . w w w w w w w . w w w w w e w
+        w . w w . . . . . . . . . . . . . . . w
+        . . . e p w w w w w w w w w w w w w . .
+        w . w w w w . . . . . . p . . . . w . w
+        w . . . p w . w . w w w w w . w w w . w
+        w . w w w w . w . w w w w w . w w w . w
+        w . . . . . . . . . e . . . . . . . . w
+        w w w w w w w w w w w w w w w w . w w w
+    </level1>
+
+    <level2>
+        w w w w w w w w w w w w w w w w w
+        w . . . . . . . . . . . . . . . w
+        w . w w w w w w . w w w w w w . w
+        w . w . . . . . . . . . . . w . w
+        w . w . w w w w w w w w w . w . w
+        w . w . w . . . . . . . w . w . w
+        w . w . w . w w f w w . w . w . w
+        w . w . w . w p e p w . w . w . w
+        . 1 w . . . w e e e w . . . w . .
+        w 2 w . w . w p e p w . w . w . w
+        w . w . w . w w . w w . w . w . w
+        w . w . w . . . . . . . w . w . w
+        w . w . w w w w w w w w w . w . w
+        w . w . . . . . . . . . . . w . w
+        w . w w w w w w . w w w w w w . w
+        w . . . . . . . . . . . . . . . w
+        w w w w w w w w w w w w w w w w w
+    </level2>
+
+    <level3>
+        w w w w w w . w w w w w w w w w w w w w
+        w . . . . . . . . . w . . . . . . . . w
+        w . w w e w w . w . w . w . w w . w p w
+        w . w w . w w . w . w . w . w w . w w w
+        w p . . . . . . w . e . w . . . . . . w
+        w w w w w w w w w w w w w w w w . w w w
+        w p . . . . . . . . . . . . . . . . . w
+        w w w w . w w w . w w w w . w w w w . w
+        w . . . e w w w . . . . . . . . w . . w
+        w w . w w w w w w w w w w w w . w . w w
+        w w . . . . . . . . . . . . . e w . w w
+        w w . w w w w . w . w . w w w . w . w w
+        w 1 . . . . . . w p w p w w w . . . . w
+        w 2 w w w w w w w w w w w w w w w w w w
+        w . . . w . w . . . w . . . . . . . . w
+        w . w e . . . . w . f . w w w w w w . w
+        w . w . w w w w w w w w w w p e . . . w
+        w . w . . . . . p w . . . w w w w w . w
+        w . w . w w w w w w . w w . . . p w . w
+        p . w . . . . . . . . . w . w w . w . .
+        w . w . w w . w w w w . w . w w . w . w
+        w . w . w w . e . . . . . . . . . . . w
+        . . w . w w . w w w w w . w w w w w . .
+        w . . . . . . . . . p . . . . . . . e w
+        w w w w w w . w w w w w w w w w . w w w
+    </level3>
+
+    <level4>
+        w w w w w w w w w w w w w w w w . w w w w w w w w w
+        w p . . . . w . . p . . . . . . . . . w w . . . p w
+        w . w w w e w . w w w w w . w w w w . w p w . w w w
+        w . w w w . w . . w . . . w . . . w . w . w . w . w
+        w . w w w . w w . . . w . . . w e w . w . w . w . w
+        w . . . . . w w w w w w w w w w . w . w . w . w . w
+        w . w w w . . . . w . . . w w w . w . w . w . . . w
+        w . w e w w . w . p . w . . w . . . . w . w w w . w
+        w . . . . w w w w w w w w . . . w w w w . . . w . w
+        w 1 w w . . . . . . . . . e w . . . . w . w e . . w
+        w 2 w w . w w w w w w w w w w w w w . w . w . w . w
+        w . . . . . . . . . . . . . . f . . . w . w w w . w
+        w . w w w w w w w w w w w w . w . w . w . . . . . w
+        w . w e . . . . . p . . . . . w . w . w w w w w . w
+        . . w . w w w w w w w w w w . w . w . . . . . . . .
+        w . w . . . p w . . . w . . . w e w . w w w w w . w
+        w . w . w w . w . w . w . w . w . w . . p . . . . w
+        w . w . w w . w . w . w . w . w . w . w w w w w . w
+        w . . . . . . . . w . . . . . . . w . . . . . e . w
+        w w w w w w w w w w w w w w w w . w w w w w w w w w
+    </level4>
+
+    <level5>
+        w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+        w . . . . . . . . e . . . w w . . . e . . . . . . . . w
+        w . w w w w . w w w w w . w w . w w w w w . w w w w . w
+        w p w w w w . w w w w w . w w . w w w w w . w w w w p w
+        w . . . . . . . . e . . . . . . . . e . . . . . . . . w
+        w . w w w w . w w . w w w w w w w w . w w . w w w w . w
+        w . . . . . . w w . . . . w w . . . . w w . . . . . . w
+        w w w w w w . w w w w w . w w . w w w w w . w w w w w w
+        w w w w w w . w w . . . e . f e . . . w w . w w w w w w
+        w w w w w w . w w . w w w w w w w w . w w . w w w w w w
+        . . . . . . 1 . . . w w w w w w w w . . . . . . . . . .
+        w w w w w w 2 w w . w w w w w w w w . w w . w w w w w w
+        w w w w w w . w w . . . . . . . . . . w w . w w w w w w
+        w w w w w w . w w . w w w w w w w w . w w . w w w w w w
+        w . . . . . . . . . . . . w w . . . . . . . . . . . . w
+        w . w w w w . w w w w w . w w . w w w w w . w w w w . w
+        w p . . w w . . . . . . . . . . . . . . . . w w . . p w
+        w w w . w w . w w . w w w w w w w w . w w . w w . w w w
+        w . . . . . . w w . . . . w w . . . . w w . . . . . . w
+        w . w w w w w w w w w w . w w . w w w w w w w w w w . w
+        w . . . . . . . . . . . . . . . . . . . . . . . . . . w
+        w w w w w w w w w w w w w w w w w w w w w w w w w w w w
+    </level5>
+</maps>
+
